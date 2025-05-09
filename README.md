@@ -1,19 +1,19 @@
-📬 Formulário de Contato - Nexcode
-Este projeto é um formulário de contato completo, com frontend em React e backend em Node.js. Os dados enviados pelo formulário são armazenados em um banco de dados MongoDB.
+📝 formulario de Contato - NexCode
+Este projeto é um formulário de contato desenvolvido com React (Vite) no frontend e Node.js com Express no backend, utilizando MongoDB para persistência dos dados. A ideia é armazenar as mensagens enviadas por usuários de forma prática e segura.
 
-🚀 Tecnologias Utilizadas
+📂 Tecnologias Utilizadas
 Frontend:
 React
 
 Vite
 
+JavaScript
+
 HTML5
 
 CSS3
 
-JavaScript
-
-Backend (API):
+Backend:
 Node.js
 
 Express
@@ -26,69 +26,48 @@ Cors
 
 Dotenv
 
-🧪 Funcionalidades
-Envio de mensagens via formulário
+⚙️ Como Executar o Projeto
+Clonar o repositório:
+git clone https://github.com/gabrielsantosssssz/formulario-nexcode.git
+cd formulario-nexcode
 
-Validação de campos obrigatórios
+Instalar dependências:
 
-Armazenamento das mensagens no MongoDB
-
-Comunicação via API REST entre frontend e backend
-
-Estrutura modular e organizada
-
-📦 Instalação
-1. Clonar o repositório:
-git clone https://github.com/gabrielsantosssssz/Formulario-de-contato-Nexcode.git
-cd Formulario-de-contato-Nexcode
-
-2. Configurar o backend (API):
+# Backend
 cd api
 npm install
 
-Crie um arquivo .env com as seguintes variáveis de ambiente:
-DATABASE_URL="mongodb+srv://nexcode22:nexcode13@user.ysxcp.mongodb.net/user?retryWrites=true&w=majority&appName=user"
-PORT=3000
-
-Inicie o servidor:
-node serve.js
-
-3. Configurar o frontend:
+# Frontend
 cd ..
 npm install
+
+Configurar variáveis de ambiente:
+Crie um arquivo .env dentro da pasta api com sua string de conexão do MongoDB:
+MONGO_URL=mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/<dbname>
+
+Iniciar o servidor backend:
+npm start
+Iniciar o frontend:
+cd ..
 npm run dev
-🗃️ Estrutura do Projeto
-Formulario-de-contato-Nexcode/
-├── api/                # Backend (Node.js)
-│   ├── models/
-│   ├── routes/
-│   └── serve.js
-├── src/                # Frontend (React)
-│   ├── components/
-│   ├── App.jsx
-│   └── main.jsx
-├── .env
-├── package.json
-├── vite.config.js
-└── README.md
 
-📌 Requisitos
-Node.js instalado
+✅ Funcionalidades
+Envio de mensagens por formulário
 
-Conta no MongoDB Atlas (ou MongoDB local)
+Validação de campos obrigatórios
 
-Navegador moderno (Chrome, Firefox, etc.)
+Armazenamento de mensagens no banco de dados
 
-📝 Licença
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+Comunicação via API REST
 
-👨‍💻 Desenvolvedores
+📸 Demonstração
+(Aqui você pode adicionar um GIF ou imagem do formulário funcionando)
+
+📌 Autor
 Gabriel dos Santos
+everton correia
+gabriel pedroso 
+hyago symoes
+danile
 
-Everton Correia
-
-Gabriel Pedroso
-
-Hyago Simões
-
-Daniel
+LinkedIn | GitHub
