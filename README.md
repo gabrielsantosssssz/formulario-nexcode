@@ -13,7 +13,7 @@ HTML5
 
 CSS3
 
-[Backend]:
+[BECKEND]:
 Node.js
 
 Express
