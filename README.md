@@ -1,8 +1,9 @@
-📬 Formulário de Contato - Nexcode
+Formulário de Contato - Nexcode
 Este projeto é um formulário de contato completo, com interface frontend em React e API backend em Node.js, que armazena os dados em um banco de dados MongoDB.
 
-🚀 Tecnologias Utilizadas
-🖥️ Frontend
+Tecnologias Utilizadas
+Frontend:
+
 React
 
 Vite
@@ -13,7 +14,8 @@ CSS3
 
 JavaScript
 
-🛠️ Backend (API)
+Backend (API):
+
 Node.js
 
 Express
@@ -26,7 +28,7 @@ Cors
 
 Dotenv
 
-🧪 Funcionalidades
+Funcionalidades
 Envio de mensagens via formulário
 
 Validação dos campos
@@ -37,36 +39,34 @@ Comunicação entre frontend e backend via API REST
 
 Projeto modular com organização clara
 
-📦 Instalação
-Clonar o repositório
+Instalação
+Clonar o repositório:
 git clone https://github.com/gabrielsantosssssz/Formulario-de-contato-Nexcode.git
 cd Formulario-de-contato-Nexcode
 
-Configurar o backend (API)
+Configurar o backend (API):
 cd api
 npm install
 
-Crie um arquivo .env com:
-
+Criar um arquivo .env com:
 DATABASE_URL="mongodb+srv://nexcode22:nexcode13@user.ysxcp.mongodb.net/user?retryWrites=true&w=majority&appName=user"
 PORT=3000
 
-Inicie o servidor:
-
+Iniciar o servidor:
 node serve.js
 
-Configurar o frontend
+Configurar o frontend:
 cd ..
 npm install
 npm run dev
 
-🗃️ Estrutura do Projeto
+Estrutura do Projeto
 Formulario-de-contato-Nexcode/
-├── api/ (Backend Node.js)
+├── api/
 │ ├── models/
 │ ├── routes/
 │ └── serve.js
-├── src/ (Frontend React)
+├── src/
 │ ├── components/
 │ ├── App.jsx
 │ └── main.jsx
@@ -75,23 +75,19 @@ Formulario-de-contato-Nexcode/
 ├── vite.config.js
 └── README.md
 
-📌 Requisitos
+Requisitos
 Node.js instalado
 
 Conta no MongoDB Atlas (ou MongoDB local)
 
-Navegador moderno (Chrome, Firefox etc.)
+Navegador moderno (Chrome, Firefox, etc.)
 
-📝 Licença
+Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-👤 Desenvolvedores
+Desenvolvedores
 Gabriel dos Santos
-
 Everton Correia
-
 Gabriel Pedroso
-
 Hyago Simões
-
 Daniel
