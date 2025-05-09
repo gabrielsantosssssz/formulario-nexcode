@@ -68,9 +68,13 @@ Comunicação via API REST
 
 📌 Autor
 Gabriel dos Santos
+
 everton correia
+
 gabriel pedroso 
+
 hyago symoes
+
 danile
 
 LinkedIn | GitHub
