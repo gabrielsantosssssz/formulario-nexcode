@@ -2,7 +2,7 @@
 Este projeto é um formulário de contato desenvolvido com React (Vite) no frontend e Node.js com Express no backend, utilizando MongoDB para persistência dos dados. A ideia é armazenar as mensagens enviadas por usuários de forma prática e segura.
 
 📂 Tecnologias Utilizadas
-Frontend:
+[Frontend]:
 React
 
 Vite
@@ -13,7 +13,7 @@ HTML5
 
 CSS3
 
-Backend:
+[Backend]:
 Node.js
 
 Express
@@ -34,22 +34,22 @@ cd formulario-nexcode
 Instalar dependências:
 
 # Backend
-cd api
-npm install
+[cd api
+npm install]
 
 # Frontend
-cd ..
-npm install
+[cd ..
+npm install]
 
 Configurar variáveis de ambiente:
 Crie um arquivo .env dentro da pasta api com sua string de conexão do MongoDB:
 MONGO_URL=mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/<dbname>
 
 Iniciar o servidor backend:
-npm start
+[node serve.js]
 Iniciar o frontend:
-cd ..
-npm run dev
+[cd ..
+npm run dev]
 
 ✅ Funcionalidades
 Envio de mensagens por formulário
@@ -60,8 +60,7 @@ Armazenamento de mensagens no banco de dados
 
 Comunicação via API REST
 
-📸 Demonstração
-(Aqui você pode adicionar um GIF ou imagem do formulário funcionando)
+
 
 📌 Autor
 Gabriel dos Santos
