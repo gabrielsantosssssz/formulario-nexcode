@@ -46,8 +46,12 @@ Crie um arquivo .env dentro da pasta api com sua string de conexão do MongoDB:
 MONGO_URL=mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/<dbname>
 
 Iniciar o servidor backend:
+
 [node serve.js]
+
+
 Iniciar o frontend:
+
 [cd ..
 npm run dev]
 
