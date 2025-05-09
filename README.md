@@ -1,9 +1,8 @@
 Formulário de Contato - Nexcode
-Este projeto é um formulário de contato completo, com interface frontend em React e API backend em Node.js, que armazena os dados em um banco de dados MongoDB.
+Este projeto é um formulário de contato completo, com frontend em React e backend em Node.js. Os dados enviados pelo formulário são armazenados em um banco de dados MongoDB.
 
 Tecnologias Utilizadas
-Frontend:
-
+Frontend
 React
 
 Vite
@@ -14,8 +13,7 @@ CSS3
 
 JavaScript
 
-Backend (API):
-
+Backend (API)
 Node.js
 
 Express
@@ -31,16 +29,17 @@ Dotenv
 Funcionalidades
 Envio de mensagens via formulário
 
-Validação dos campos
+Validação de campos obrigatórios
 
 Armazenamento das mensagens no MongoDB
 
-Comunicação entre frontend e backend via API REST
+Comunicação via API REST entre frontend e backend
 
-Projeto modular com organização clara
+Estrutura modular e organizada
 
 Instalação
-Clonar o repositório:
+
+1. Clonar o repositório: 
 git clone https://github.com/gabrielsantosssssz/Formulario-de-contato-Nexcode.git
 cd Formulario-de-contato-Nexcode
 
